@@ -1,0 +1,29 @@
+/* style_tambah_konten.css */
+.title-border-radius {
+    border-radius: 10px;
+}
+
+.btn-border-radius {
+    border-radius: 30px;
+}
+
+/* Animasi tambahan untuk form */
+#textContent,
+#videoContent {
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+#textContent.hidden,
+#videoContent.hidden {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+/* Responsif form */
+@media (max-width: 768px) {
+    .program form .form-group {
+        margin-bottom: 15px;
+    }
+}

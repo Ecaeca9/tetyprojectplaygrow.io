@@ -1,0 +1,29 @@
+/* Animasi untuk Modal Konfirmasi */
+@keyframes bounceIn {
+    0% { transform: scale(0.1); opacity: 0; }
+    60% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); }
+}
+
+.success-modal {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.success-content {
+    animation: bounceIn 0.8s ease-in-out;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.success-icon {
+    font-size: 5rem;
+    color: #28a745;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}

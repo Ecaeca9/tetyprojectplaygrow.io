@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../playgrow/css"
+		},
+		{
+			"path": "../playgrow/img"
+		},
+		{
+			"path": "../playgrow/js"
+		},
+		{
+			"path": "../playgrow/lib"
+		},
+		{
+			"path": "../playgrow/scss"
+		},
+		{
+			"path": "../playgrow"
+		}
+	]
+}

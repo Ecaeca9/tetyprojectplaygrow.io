@@ -1,0 +1,39 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination a, .pagination span {
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 5px; /* Membuat sudut lebih halus */
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.pagination a:hover {
+    background-color: #000;
+    color: white;
+}
+
+.pagination .active {
+    background-color: #000000;
+    color: white;
+    border: 1px solid #000000;
+    font-weight: bold;
+    pointer-events: none; /* Tidak bisa diklik */
+}
+
+.pagination .disabled {
+    color: #aaa;
+    border-color: #ddd;
+    pointer-events: none; /* Mencegah klik */
+}
